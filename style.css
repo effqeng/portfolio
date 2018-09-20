@@ -32,8 +32,9 @@ nav ul li a:hover {
 
 
 .Home {
-  font-family: 'Open Sans', sans-serif;
   padding-top: 10vw;
+  padding-bottom: 10vw;
+  font-family: 'Open Sans', sans-serif;
   background: #e0ebe8;
   text-align: center;
   font-size: 30px;
@@ -43,4 +44,36 @@ nav ul li a:hover {
   height: 20%;
   width: 20%;
   border-radius: 100px 100px 100px 100px;
+}
+
+.About {
+  padding-top: 5vw;
+  padding-bottom: 4vw;
+}
+
+
+
+.About #header{
+  text-align: center;
+  color: green;
+  font-size: 5vw;
+  margin-bottom: 3vw;
+}
+
+.About p {
+    text-align: center;
+    font-size: 4vw;
+  }
+
+
+.skills {
+  padding-top: 5vw;
+}
+
+
+.skills img {
+      display: inline-block;
+      width: 20%;
+      height: 15%;
+      margin: 5vw;
 }
